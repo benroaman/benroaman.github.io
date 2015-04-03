@@ -45,7 +45,7 @@ body {
   display: inline-block;
   box-sizing: border-box;
   width: 30%;
-  height: 400px;
+  min-height: 425px;
   background: rgba(255, 255, 255, .5);
   float: right;
   margin-right: 2.5%;
