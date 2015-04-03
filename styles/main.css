@@ -3,18 +3,19 @@
 }
 
 a {
-  color: darkblue;
   text-decoration: none;
+  color: inherit;
 }
 
 body {
-  background-image: url('../img/background1.jpg');
+  background-image: url('../img/background2.jpg');
   background-size: cover;
 }
 
 .main-header, .title-header {
   text-align: center;
   margin: 0;
+  color: white;
 }
 
 .main-header {
@@ -31,7 +32,7 @@ body {
 
 .projects-cntnr {
   position: relative;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(0, 0, 0, .5);
   width: 75%;
   margin: 0 auto;
   text-align: justify;
@@ -41,12 +42,12 @@ body {
 .project-cntnr {
   text-align: center;
   position: relative;
-  border: 1px solid grey;
+  border: 1px solid black;
   display: inline-block;
   box-sizing: border-box;
   width: 30%;
   min-height: 400px;
-  background: rgba(255, 255, 255, .5);
+  background: rgba(255, 255, 255, .65);
   float: right;
   margin-right: 2.5%;
   margin-top: 2.5%;
@@ -57,7 +58,13 @@ body {
 
 .project-title {
   text-align: center;
-  color: black;
+  color: darkslategrey;
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+}
+
+.project-title:hover {
+  color: darkorange;
 }
 
 .project-blurb {
@@ -76,5 +83,11 @@ body {
   text-align: center;
   margin: 0 0 2em;
   font-weight: 300;
-  color: darkorange;
+  color: lightblue;
+  -webkit-transition: all .15s;
+  -moz-transition: all .15s;
+}
+
+.contact-info:hover {
+  color: orange
 }
