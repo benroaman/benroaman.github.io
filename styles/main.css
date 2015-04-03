@@ -10,6 +10,7 @@ a {
 body {
   background-image: url('../img/background2.jpg');
   background-size: cover;
+  min-width: 890px;
 }
 
 .main-header, .title-header {
@@ -34,6 +35,7 @@ body {
   position: relative;
   background: rgba(0, 0, 0, .5);
   width: 75%;
+  min-width: 890px;
   margin: 0 auto;
   text-align: justify;
   overflow: auto;
