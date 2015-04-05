@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'git';
+  src: url('../fonts/git-icon.ttf');
+}
+
 * {
   font-family: 'Raleway', sans-serif;
 }
@@ -8,9 +13,16 @@ a {
 }
 
 body {
-  background-image: url('../img/background2.jpg');
+  background-image: url('../img/background4.jpg');
   background-size: cover;
   min-width: 890px;
+}
+
+.git-icon {
+  font-family: 'git';
+  position: absolute;
+  left: -1.2em;
+  top: .15em;
 }
 
 .main-header, .title-header {
@@ -60,13 +72,17 @@ body {
 
 .project-title {
   text-align: center;
-  color: darkslategrey;
+  color: black;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
 }
 
 .project-title:hover {
-  color: darkorange;
+  color: dodgerblue;
+}
+
+.contact-cntnr {
+  text-align: center;
 }
 
 .project-blurb {
@@ -82,14 +98,20 @@ body {
 }
 
 .contact-info {
+  position: relative;
+  display: inline-block;
   text-align: center;
   margin: 0 0 2em;
   font-weight: 300;
-  color: lightblue;
+  color: white;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
 }
 
+.contact-info + .contact-info {
+  margin-left: 4em;
+}
+
 .contact-info:hover {
-  color: orange
+  color: dodgerblue;
 }
