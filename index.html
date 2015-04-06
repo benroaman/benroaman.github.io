@@ -8,34 +8,65 @@
   </head>
   <body>
 
-    <h1 class="main-header">Ben Roaman</h1>
-    <h2 class="title-header">// front end developer</h2>
-    <div class="contact-cntnr">
+    <div id="hero-sctn">
 
-      <h3 class="contact-info"><a href="mailto:benroaman@gmail.com">benroaman@gmail.com</a></h3>
-      <h3 class="contact-info"><a target="_blank" href="https://github.com/benroaman"><span class="git-icon">g </span> benroaman</a></h3>
+
+      <h1 class="main-header">Ben Roaman</h1>
+      <h2 class="title-header">// front end developer</h2>
+
+      <nav class="site-nav">
+
+        <h3 class="site-button"><a href="#bio-sctn">bio</a></h3>
+        <h3 class="site-button"><a href="#projects-sctn">work</a></h3>
+
+      </nav>
+
+      <div class="contact-cntnr">
+
+        <h3 class="contact-info"><a href="mailto:benroaman@gmail.com">i</a></h3>
+        <h3 class="contact-info"><a target="_blank" href="https://github.com/benroaman">k</a></h3>
+        <h3 class="contact-info"><a target="_blank" href="https://www.linkedin.com/pub/ben-roaman/53/43a/15">l</a></h3>
+
+      </div>
 
     </div>
 
-    <div class="projects-cntnr">
 
-      <div class="project-cntnr">
-        <a href="http://benroaman.github.io/user_mgmt" target="_blank"><img class="thumbnail" src="img/user-mgmt-thumb.jpg" /></a>
-        <h3 class="project-title"><a href="http://benroaman.github.io/user_mgmt" target="_blank">User Management</a></h3>
-        <p class="project-blurb">  A simple asset management application, This Iron Yard weekend project was a real challenge, it was our most extensive DOM manipulation to date, and I wrote it using straight js, no Jquery.</p>
+    <div id="projects-sctn">
+
+      <div class="projects-cntnr">
+
+        <div class="project-cntnr">
+          <a href="http://benroaman.github.io/user_mgmt" target="_blank"><img class="thumbnail" src="img/user-mgmt-thumb.jpg" /></a>
+          <h3 class="project-title"><a href="http://benroaman.github.io/user_mgmt" target="_blank">User Management</a></h3>
+          <p class="project-blurb">  A simple asset management application, This Iron Yard weekend project was a real challenge, it was our most extensive DOM manipulation to date, and I wrote it using straight js, no Jquery.</p>
+        </div>
+
+        <div class="project-cntnr">
+          <a href="http://benroaman.github.io/tiy-memory" target="_blank"><img class="thumbnail" src="img/memory-thumb.jpg" /></a>
+          <h3 class="project-title"><a href="http://benroaman.github.io/tiy-memory" target="_blank">Memory</a></h3>
+          <p class="project-blurb">  My version of the classic game Memory, tuned for speed. This Iron Yard weekend project was an absolute blast to put together, as well as my first extensive use of Jquery to accomplish DOM manipulation.</p>
+        </div>
+
+        <div class="project-cntnr">
+          <a href="http://www.trialsource.org" target="_blank"><img class="thumbnail" src="img/trialsource-thumb.jpg" /></a>
+          <h3 class="project-title"><a href="http://www.trialsource.org" target="_blank">trialSource</a></h3>
+          <p class="project-blurb">trialSource is my Iron Yard final project. It is a tool for research institutions fill trials. I built the front end using Jquery, Lodash, Rlite, Select2, Pickadate, and Google places autocomplete. The backend uses a rails API running a postgres DB.</p>
+        </div>
+
       </div>
 
-      <div class="project-cntnr">
-        <a href="http://benroaman.github.io/tiy-memory" target="_blank"><img class="thumbnail" src="img/memory-thumb.jpg" /></a>
-        <h3 class="project-title"><a href="http://benroaman.github.io/tiy-memory" target="_blank">Memory</a></h3>
-        <p class="project-blurb">  My version of the classic game Memory, tuned for speed. This Iron Yard weekend project was an absolute blast to put together, as well as my first extensive use of Jquery to accomplish DOM manipulation.</p>
-      </div>
+      <nav class="site-nav">
+        <h3 class="site-button"><a href="#bio-sctn">bio</a></h3>
+        <h3 class="site-button"><a href="#hero-sctn">top</a></h3>
+      </nav>
 
-      <div class="project-cntnr">
-        <a href="http://www.trialsource.org" target="_blank"><img class="thumbnail" src="img/trialsource-thumb.jpg" /></a>
-        <h3 class="project-title"><a href="http://www.trialsource.org" target="_blank">trialSource</a></h3>
-        <p class="project-blurb">trialSource is my Iron Yard final project. It is a tool for research institutions fill trials. I built the front end using Jquery, Lodash, Rlite, Select2, Pickadate, and Google places autocomplete. The backend uses a rails API running a postgres DB.</p>
-      </div>
+    </div>
+    
+    <div id="bio-sctn"></div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/scroll.js"></script>
 
   </body>
 </html>
