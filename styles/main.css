@@ -5,6 +5,13 @@
 
 * {
   font-family: 'Raleway', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1100px;
+  margin: 0;
 }
 
 a {
@@ -14,33 +21,19 @@ a {
   font-size: inherit;
 }
 
-body {
-  background-image: url('../img/background3.jpg');
-  background-size: cover;
-  min-width: 890px;
-  height: 85vh;
-  margin: 0;
+hr {
+  width: 25%;
+  margin: 6em auto 0;
 }
 
 #hero-sctn {
   padding-top: 2%;
   height: 90vh;
   text-align: center;
+  background-image: url('../img/background3.jpg');
+  background-size: cover;
 }
 
-#projects-sctn {
-  width: 100%;
-  height: 100vh;
-  background: white;
-  margin: 0;
-  padding: 6em 0;
-  box-sizing: border-box;
-}
-
-#about-sctn {
-  background: #a8c1cb;
-  min-height: 100vh;
-}
 
 .hdr-cntnr {
   position: relative;
@@ -69,7 +62,7 @@ body {
 }
 
 .contact-lnk:hover {
-  color: steelblue;
+  color: darkorange;
 }
 
 .main-header, .title-header {
@@ -88,86 +81,166 @@ body {
 .title-header {
   font-size: 4em;
   font-weight: 100;
-  margin-bottom: .65em;
+  margin-bottom: .6em;
 }
 
-.projects-cntnr {
-  position: relative;
-  /*background: rgba(0, 0, 0, .5);*/
-  width: 75%;
-  min-width: 890px;
-  margin: 0 auto;
-  text-align: justify;
-  overflow: auto;
-}
-
-.project-cntnr {
+.main-nav {
   text-align: center;
-  position: relative;
-  border: 1px solid black;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 30%;
-  min-height: 400px;
-  background: rgba(255, 255, 255, .65);
-  float: right;
-  margin-right: 2.5%;
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  padding: 1em;
-  text-align: center;
-}
-
-.project-title {
-  text-align: center;
-  color: black;
-  -webkit-transition: all .15s;
-  -moz-transition: all .15s;
-}
-
-.project-title:hover {
-  color: steelblue;
-}
-
-.project-blurb {
-  text-align: left;
-  color: black;
-}
-
-.thumbnail {
-  display: inline-block;
-  margin: auto;
-  width: 225px;
-  border: 1px solid black;
-  -webkit-transition: all .15s;
-}
-
-.thumbnail:hover {
-  border-color: steelblue;
-}
-
-.work-button {
-  display: block;
-  margin: auto;
-}
-
-.nav-button + .nav-button {
-  margin-left: 8em;
+  color: white;
 }
 
 .nav-button {
   font-size: 1.5em;
   display: inline-block;
   font-weight: 400;
-  color: white;
+  color: inherit;
   -webkit-transition: all .15s;
   -moz-transition: all .15s;
 }
 
 .nav-button:hover {
-  color: steelblue;
+  color: darkorange;
 }
 
-.main-nav {
+.nav-button + .nav-button {
+  margin-left: 8em;
+}
+
+/*Below lie Projects Section Rules*/
+
+#projects-sctn {
+  width: 100%;
+  min-height: 100vh;
+  background: white;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.projects-hdr {
+  padding-top: 5vh;
+  font-weight: 200;
+  font-size: 6em;
   text-align: center;
+}
+
+.project-cntnr {
+  width: 85%;
+  margin: 6em auto 0;
+}
+
+.thumb {
+  width: 35%;
+  max-width: 370px;
+  border: 1px solid black;
+  vertical-align: middle;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+}
+
+.thumb:hover {
+  border-color: darkorange;
+}
+
+.project-info-cntnr {
+  display: inline-block;
+  width: 60%;
+  vertical-align: top;
+  float: right;
+}
+
+.project-title {
+  display: inline-block;
+  font-weight: 300;
+  font-size: 2em;
+  margin-bottom: .5em;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+}
+
+.project-title:hover {
+  color: darkorange;
+}
+
+.git-link {
+  font-family: "icons";
+  font-size: 1.25em;
+  margin-left: 2em;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+}
+
+.git-link:hover {
+  color: darkorange;
+}
+
+.project-description {
+  line-height: 1.6em;
+  text-align: justify;
+}
+
+.sub-nav {
+  text-align: center;
+  margin: 5em 0 7.5em;
+}
+
+/*about section*/
+
+#about-sctn {
+  position: relative;
+  background: white;
+  min-height: 100vh;
+}
+
+.about-hdr {
+  font-weight: 200;
+  font-size: 6em;
+  text-align: center;
+}
+
+.bio-cntnr {
+  width: 85%;
+  margin: 7.5em auto 0;
+}
+
+.portrait {
+  width: 225px;
+  height: 225px;
+  border-radius: 100%;
+}
+
+.bio-text {
+  display: inline-block;
+  width: 70%;
+  float: right;
+  line-height: 1.8em;
+}
+
+.bio-nav {
+  text-align: center;
+}
+
+.bottom-nav {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 90%;
+}
+
+.subhead-nav {
+  text-align: center;
+}
+
+.subhead-lnk {
+  font-family: 'icons';
+  font-size: 1.5em;
+  -webkit-transition: all .1s;
+  -moz-transition: all .1s;
+}
+
+.subhead-lnk:hover {
+  color: darkorange;
+}
+
+.subhead-lnk + .subhead-lnk {
+  margin-left: 1em;
 }
