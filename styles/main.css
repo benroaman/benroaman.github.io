@@ -10,7 +10,6 @@
 }
 
 body {
-  min-width: 1100px;
   margin: 0;
 }
 
@@ -125,11 +124,13 @@ hr {
 
 .project-cntnr {
   width: 85%;
+  max-width: 936px;
   margin: 7em auto 0;
 }
 
 .thumb {
   width: 35%;
+  margin-right: 4%;
   max-width: 370px;
   border: 1px solid black;
   -webkit-transition: color .1s;
@@ -144,7 +145,6 @@ hr {
   display: inline-block;
   width: 60%;
   vertical-align: top;
-  float: right;
 }
 
 .project-title {
@@ -203,18 +203,21 @@ hr {
 
 .bio-cntnr {
   width: 85%;
+  max-width: 936px;
   margin: 7.5em auto 0;
 }
 
 .portrait {
-  width: 225px;
+  width: 25%;
   border-radius: 100%;
+  vertical-align: top;
 }
 
 .bio-text {
+  vertical-align: top;
   display: inline-block;
   width: 70%;
-  float: right;
+  margin-left: 4%;
   line-height: 1.8em;
 }
 

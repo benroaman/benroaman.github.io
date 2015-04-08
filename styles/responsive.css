@@ -124,3 +124,81 @@
     width: 75%;
   }
 }
+
+.project-info-cntnr {
+  margin-left: 0;
+}
+
+@media (min-width: 481px) and (max-width: 901px) {
+  .main-header {
+    font-size: 5em;
+  }
+
+  .title-header {
+    font-size: 2.7em;
+  }
+
+  .contacts-cntnr {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+
+  .contact-lnk {
+    display: inline;
+    font-size: 1.5em;
+  }
+
+  .contact-lnk + .contact-lnk {
+    margin-top: 0;
+    margin-left: 2em;
+  }
+
+  .thumb, .project-info-cntnr {
+    display: block;
+    float: none;
+    width: 100%;
+    margin: auto;
+  }
+
+  .thumb {
+    width: 75%;
+  }
+
+  .project-title {
+    width: 100%;
+    text-align: center;
+    margin: 1.5em auto;
+  }
+
+  .project-cntnr {
+    margin-top: 3.5em;
+    width: 77.5%;
+  }
+
+  .portrait {
+    width: 50%;
+  }
+
+  .bio-text {
+    margin-top: 2.5em;
+    margin-left: 0;
+    width: 100%;
+    text-align: justify;
+  }
+
+  .bio-cntnr {
+    width: 77.5%;
+    margin-top: 2.5em;
+    text-align: center;
+  }
+
+  .bottom-nav {
+    position: relative;
+    top:0;
+    margin-top: 5em;
+    margin-bottom: 1em;
+  }
+
+}
