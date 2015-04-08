@@ -101,7 +101,7 @@
 
   .bio-text {
     margin-top: 2.5em;
-    float: none;
+    margin-left: 0;
     width: 100%;
     font-size: .85em;
     text-align: justify;
