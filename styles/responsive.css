@@ -25,7 +25,7 @@
 
   .contact-lnk {
     display: inline;
-    font-size: 4em;
+    font-size: 6em;
   }
 
   .contact-lnk + .contact-lnk {
@@ -34,7 +34,7 @@
   }
 
   .nav-button {
-    font-size: 4em;
+    font-size: 6em;
     font-weight: 200;
   }
 
