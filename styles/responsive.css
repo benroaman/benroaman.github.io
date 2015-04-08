@@ -1,0 +1,116 @@
+@media (max-width: 480px) {
+
+  body {
+    width: 100vw;
+    min-width: 240px;
+  }
+
+  .main-header {
+    font-size: 2.75em;
+    margin-top: 1.1em;
+  }
+
+  .title-header {
+    font-size: 1.35em;
+    margin-bottom: 2.8em;
+    font-weight: 300;
+  }
+
+  .contacts-cntnr {
+    position: relative;
+    text-align: center;
+    top: 0;
+    left: 0;
+  }
+
+  .contact-lnk {
+    display: inline;
+    font-size: 1.25em;
+  }
+
+  .contact-lnk + .contact-lnk {
+    margin-top: 0;
+    margin-left: 2em;
+  }
+
+  .nav-button {
+    font-size: 1.25em;
+    font-weight: 200;
+  }
+
+  .nav-button + .nav-button {
+    margin-left: 4em;
+  }
+
+  .hdr-cntnr {
+    margin-top: 1em;
+  }
+
+  .projects-hdr {
+    padding-top: 7vh;
+    font-size: 5em;
+  }
+
+  .thumb, .project-info-cntnr {
+    display: block;
+    float: none;
+    width: 100%;
+  }
+
+  .project-cntnr {
+    margin-top: 3.5em;
+    width: 77.5%;
+  }
+
+  .project-title {
+    text-align: center;
+    display: block;
+    font-size: 1.75em;
+    margin-top: 1em;
+  }
+
+  .project-description {
+    font-size: .75em;
+    line-height: 1.8em;
+  }
+
+  .git-link {
+    font-size: .75em;
+    margin-left: 1em;
+  }
+
+  hr {
+    width: 50%;
+    margin-top: 3.5em;
+  }
+
+  .sub-nav {
+    margin: 2em auto 0;
+  }
+
+  .bio-cntnr {
+    width: 77.5%;
+    margin-top: 2.5em;
+    text-align: center;
+  }
+
+  .about-hdr {
+    padding-top: 7vh;
+    font-size: 5em;
+  }
+
+  .bio-text {
+    margin-top: 2.5em;
+    float: none;
+    width: 100%;
+    font-size: .75em;
+    text-align: justify;
+  }
+
+  .bottom-nav {
+    position: relative;
+    top:0;
+    margin-top: 2em;
+    margin-bottom: 1em;
+  }
+}
